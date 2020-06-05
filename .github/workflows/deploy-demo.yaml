@@ -44,4 +44,4 @@ jobs:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
         uses: pullreminders/slack-action@master
         with:
-          args: '{\"channel\":\"C7NTH118T\",\"text\":\"Application: fdk-nginx-organization deployed to digdir\"}'
+          args: '{\"channel\":\"C7NTH118T\",\"text\":\"Application: fdk-nginx-organization deployed to demo\"}'
