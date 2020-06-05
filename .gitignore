@@ -1,5 +1,1 @@
-target/
-*.iml
-.idea/
-.env
-.DS_STORE
+.idea
