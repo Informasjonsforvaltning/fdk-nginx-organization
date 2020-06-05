@@ -67,5 +67,5 @@ jobs:
         uses: peter-evans/repository-dispatch@master
         with:
           token: ${{ secrets.DISPATCH_TOKEN }}
-          event-type: deploy-demo-digdir
+          event-type: deploy-demo
           client-payload: '{"sha": "${{ github.sha }}"}'
